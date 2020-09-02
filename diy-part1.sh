@@ -22,5 +22,6 @@ mkdir openwrt-packages && cd openwrt-packages
 git clone https://github.com/rosywrt/luci-theme-rosy.git
 git clone https://github.com/vernesong/OpenClash.git
 git clone https://github.com/maxlicheng/luci-app-ssr-plus.git
-cd ../../feeds/luci/applications/
+pwd
+cd openwrt/feeds/luci/applications/
 git clone https://github.com/pymumu/luci-app-smartdns
