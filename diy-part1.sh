@@ -25,3 +25,5 @@ git clone https://github.com/maxlicheng/luci-app-ssr-plus.git
 mkdir -p /home/runner/work/openwrt-actions/openwrt-actions/openwrt/feeds/luci/applications/
 cd /home/runner/work/openwrt-actions/openwrt-actions/openwrt/feeds/luci/applications/
 git clone https://github.com/pymumu/luci-app-smartdns
+cd /home/runner/work/openwrt-actions/openwrt-actions/openwrt/
+./scripts/feeds install luci -a
